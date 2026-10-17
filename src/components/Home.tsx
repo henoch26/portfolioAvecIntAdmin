@@ -1,10 +1,9 @@
-import React from 'react';
 import { Mail } from 'lucide-react';
 import img from "../assets/ma_photo.jpeg"
 
 const Home = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-center md:my-16 my-10 ">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-center md:my-16 my-10 " id="Home">
         <div className="flex flex-col items-center justify-center text-center md:justify-start md:items-start md:text-left">
             <h1 className="text-white text-5xl md:text-6xl font-bold mb-4">
                 Bienvenue sur mon portfolio, je suis <span className="text-cyan-400">HENDEV</span> !

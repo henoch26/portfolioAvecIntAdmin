@@ -65,10 +65,11 @@ const projects = [
 
 
 const Projects = () => {
+
     return (
-        <div className="mt-4">
+        <div >
             <Title title="Mes Projets"/>
-            <div className="md:grid md:grid-cols-3 gap-4">
+            <div className="md:grid md:grid-cols-3 gap-4" id="Projects">
               {
                 projects.map((project) => (
                   <div key={project.id} className="flex flex-col bg-gray-800 p-2 rounded-lg border border-gray-600 shadow mb-4">

@@ -11,15 +11,29 @@ function App() {
           <Navbar />
           <Home />
         </div>
+
+        <hr className="w-4/5 text-transparent shadow-4 mx-auto mt-2 mb-2" />
+
         <div>
           <About />
         </div>
+
+<hr className="w-4/5 text-transparent shadow-4 mx-auto mt-2 mb-2" />
         <div>
           <Experiences/>
         </div>
+
+<hr className="w-4/5 text-transparent shadow-4 mx-auto mt-2 mb-2" />
         <div className="md:px-[15%]">
           <Projects/>
         </div>
+
+<hr className="w-4/5 text-transparent shadow-4 mx-auto mt-2 mb-2" />        
+        <div className="md:px-[15%]">
+          <Projects/>
+        </div>
+        
+<hr className="w-4/5 text-transparent shadow-4 mx-auto mt-2 mb-2" />
         <div>
           <Footer />
         </div>

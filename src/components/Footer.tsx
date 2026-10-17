@@ -2,15 +2,24 @@ import { Container } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-  <div>
-    <a href="" className="flex flex-col items-center text-xl font-bold mt-4 mr-4 md:mr-8">  
-        <Container className="w-10 h-10" />
-        <p>HEN<span className="text-cyan-400">DEV</span></p>
+    <footer className="footer footer-horizontal footer-center bg-base-300 text-primary-content p-10">
+  <aside>
+    <a href="" className="flex flex-col items-center text-xl text-white font-bold mt-4 mr-4 md:mr-8">
+        <Container className="w-20 h-20"/>
+        <div>
+            <span className="font-bold text-white">HEN</span><span className="text-cyan-400">DEV</span>
+        </div>
+        
     </a>
-  </div>
+    <p className="font-bold text-white">
+      ACME Industries Ltd.
+      <br />
+      Providing reliable tech since 1992
+    </p>
+    <p className=" text-white">Copyright © {new Date().getFullYear()} - All right reserved</p>
+  </aside>
   <nav>
-    <div className="grid grid-flow-col gap-4">
+    <div className="grid grid-flow-col gap-4 text-white">
       <a>
         <svg
           aria-label="Twitter"
@@ -49,11 +58,8 @@ const Footer = () => {
       </a>
     </div>
   </nav>
-  <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-  </aside>
 </footer>
   );
-}
+};
 
 export default Footer;

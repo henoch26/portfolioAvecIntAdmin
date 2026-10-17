@@ -4,3 +4,7 @@
   themes: all;
 }
 @lucide "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}

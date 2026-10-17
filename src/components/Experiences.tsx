@@ -65,11 +65,12 @@ const experiences = [
 ];
 
 
-const Experiences = () => {      
+const Experiences = () => {
+
     return (
-        <div className="mt-4">
+        <div>
             <Title title="Mes Expériences"/>
-            <div className="flex justify-center flex-col-reverse gap-4 md:flex-row md:gap-8">
+            <div className="flex justify-center flex-col-reverse gap-4 md:flex-row md:gap-8" id="Experiences">
                 <div className="flex flex-col gap-4 justify-center items-center grid grid-rows-3 grid-flow-col gap-4">
                     {
                         skills.map((skill) => (
